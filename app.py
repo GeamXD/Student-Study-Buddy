@@ -189,7 +189,7 @@ if not st.experimental_user.is_logged_in:
     col1, col_main, col3 = st.columns([1, 5, 1])
 
     with col_main:
-        st.header(f"Agent Lambda: AI Assistant", anchor=False)
+        st.header(f"Study Buddy: AI Assistant", anchor=False)
 
         with st.container(border=True):
             st.markdown("<br>", unsafe_allow_html=True)
